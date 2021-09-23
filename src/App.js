@@ -5,6 +5,8 @@ import { ThemeProvider } from "styled-components";
 import { themes } from "./theme";
 import { GlobalStyles } from "./global";
 import { CursorProvider } from "react-cursor-custom";
+import EfficientCursor from "react-efficient-cursor";
+import AnimatedCursor from "react-animated-cursor";
 import { settings } from "./portfolio";
 import ReactGA from "react-ga";
 
@@ -26,17 +28,15 @@ function App() {
       <>
         <GlobalStyles />
         <div>
-          {useCursor ? (
-            <CursorProvider
-              color={themes[theme].secondaryText}
-              ringSize={25}
-              transitionTime={75}
-            >
-              <Main theme={themes[theme]} setTheme={setTheme} />
-            </CursorProvider>
-          ) : (
+          <AnimatedCursor
+            innerSize={12}
+            outerSize={30}
+            color="252, 0, 76"
+            outerAlpha={0.2}
+            innerScale={0.7}
+            outerScale={2}
+          />
             <Main theme={themes[theme]} setTheme={setTheme} />
-          )}
         </div>
       </>
     </ThemeProvider>
@@ -44,4 +44,5 @@ function App() {
 }
 
 export default App;
-// check 
+// check
+// https://dev.to/holdmypotion/react-custom-cursor-no-extra-dependencies-25ki    to implement more attractive cursor
