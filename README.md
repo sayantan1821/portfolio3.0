@@ -14,9 +14,14 @@
 
 # How To Use
 
+### npm
 - Clone this repository (or fork, then clone your fork :) )
 - Run `npm i`
 - Check it out using `npm start`
+### yarn
+- Clone this repository (or fork, then clone your fork :) )
+- Run `yarn install`
+- Check it out using `yarn start`
 
 # How Do I Customize
 
@@ -33,13 +38,14 @@
 
 **Option 1:**
 
-- Run `npm run build` to generate the production build folder.
+
+- Run `npm run build` or `yarn build` to generate the production build folder.
 - Enter the build folder, `git init` and push the generated code to the `master` branch of your new repository. That's it. Done.
   You may need to `git init` and force push at every new build.
 
 **Option 2 (will not work with [user pages](https://docs.github.com/en/github/working-with-github-pages/about-github-pages)):**
 
-- Run `npm run deploy` to build and create a branch called `gh-pages`. It will push the `build` files to that branch.
+- Run `npm run deploy` or `yarn deploy` to build and create a branch called `gh-pages`. It will push the `build` files to that branch.
 - The last step in deploying is to enable `Github Pages` in settings of the repository and select `gh-pages` branch.
 
 Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`.  
