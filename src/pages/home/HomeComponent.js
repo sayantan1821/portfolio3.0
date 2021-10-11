@@ -10,7 +10,8 @@ function Home(props) {
       <Header theme={props.theme} setTheme={props.setTheme} />
       <Greeting theme={props.theme} />
       <Skills theme={props.theme} />
-      <Footer theme={props.theme} />
+      <section id='footer'><Footer theme={props.theme} /></section>
+      
     </div>
   );
 }
