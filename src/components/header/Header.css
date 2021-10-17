@@ -2,9 +2,16 @@
 
 .header {
   display: block;
-  max-width: 90%;
+  /* max-width: 90%; */
+  width: 100vw;
   padding: 20px 10px;
-  margin: -10px auto;
+  padding: 1em 7em;
+  /* margin: -10px auto; */
+  margin: auto;
+  position: fixed;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 10000;
 }
 
 .header ul {

@@ -6,8 +6,11 @@ import { Fade } from "react-reveal";
 import { useHistory } from "react-router-dom";
 import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
+import { withRouter } from "react-router";
+import { Link } from "react-router-dom";
 
-export default function Greeting(props) {
+
+const Greeting = (props) => {
   const theme = props.theme;
   const history = useHistory();
 
@@ -36,17 +39,18 @@ export default function Greeting(props) {
                 {greeting.subTitle}
               </p>
               <SocialMedia />
+              <Link to='#contact'>
               <div className="portfolio-repo-btn-div">
                 <button
                   {...styles}
                   className="button"
                   onClick={() => {
-                    history.push("/contact");
                   }}
                 >
                   Contact Me
                 </button>
               </div>
+              </Link>
             </div>
           </div>
           <div className="greeting-image-div">
@@ -57,3 +61,5 @@ export default function Greeting(props) {
     </Fade>
   );
 }
+
+export default withRouter(Greeting);

@@ -125,7 +125,7 @@ function Header(props) {
             <li>
               <a
                 className="cr"
-                href="#footer"
+                href="#contact"
                 // tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
