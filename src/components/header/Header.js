@@ -90,15 +90,15 @@ function Header(props) {
               </NavLink>
             </li>
             <li>
-              <NavLink
+              <a
                 className="ec"
-                to="/education"
-                tag={Link}
+                href="#educations"
+                // tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
                 Education and Certifications
-              </NavLink>
+              </a>
             </li>
             <li>
               <NavLink
