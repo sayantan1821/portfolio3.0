@@ -268,18 +268,18 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Shantilal Shah Engineering College",
+      title: "Kalinga Institute of Industrial Technology",
       subtitle: "Bachelor in Information Technology",
-      logo_path: "ssec.png",
+      logo_path: "kiit.jpg",
       alt_name: "SSEC",
-      duration: "2021 - Present",
+      duration: "2019 - Present",
       descriptions: [
-        "⚡ I'm currently pursuing my bachelors in Information Technology."
-        // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ I'm currently pursuing my bachelors in Information Technology.",
+        "⚡ I have studied core subjects like Data Structures, DBMS, Computer Networking etc.",
+        "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
+        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
-      website_link: "http://www.ssgec.ac.in/",
+      website_link: "https://kiit.ac.in/",
     },
     {
       title: "Dr. S. & S. S. Ghandhy College Of Engineering & Technology",
