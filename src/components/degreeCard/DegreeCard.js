@@ -2,6 +2,7 @@ import React from "react";
 import "./DegreeCard.css";
 import { Fade, Flip } from "react-reveal";
 import { style } from "glamor";
+import ReactRoundedImage from "react-rounded-image";
 
 function DegreeCard(props) {
   const degree = props.degree;
@@ -80,6 +81,15 @@ function DegreeCard(props) {
             src={require(`../../assests/images/${degree.logo_path}`)}
             alt={degree.alt_name}
           />
+          {/* <ReactRoundedImage
+            // image={MyPhoto}
+            // src={require(`../../assests/images/${degree.logo_path}`)}
+            roundedColor="#321124"
+            imageWidth="150"
+            imageHeight="150"
+            roundedSize="13"
+            borderRadius="70"
+          /> */}
         </div>
       </Flip>
       <Fade right duration={2000} distance="40px">

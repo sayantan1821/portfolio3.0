@@ -270,14 +270,14 @@ const degrees = {
     {
       title: "Kalinga Institute of Industrial Technology",
       subtitle: "Bachelor in Information Technology",
-      logo_path: "kiit.jpg",
+      logo_path: "kiit.png",
       alt_name: "SSEC",
       duration: "2019 - Present",
       descriptions: [
         "⚡ I'm currently pursuing my bachelors in Information Technology.",
         "⚡ I have studied core subjects like Data Structures, DBMS, Computer Networking etc.",
-        "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ I have also completed various online courses for Backend , Web, full stack etc.",
+        "⚡ I have implemented several projects based on what I've learnt under my Computer Engineering course. ",
       ],
       website_link: "https://kiit.ac.in/",
     },
