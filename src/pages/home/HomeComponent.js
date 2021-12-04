@@ -5,6 +5,7 @@ import Skills from "../../containers/skills/Skills";
 import Footer from "../../components/footer/Footer";
 import Contact from "../contact/ContactComponent";
 import Educations from "../../containers/education/Educations";
+import { experience } from "../../portfolio";
 import Certifications from "../../containers/certifications/Certifications";
 import EducationImg from "../education/EducationImg";
 import { Fade } from "react-reveal";
