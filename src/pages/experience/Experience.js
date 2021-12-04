@@ -11,8 +11,8 @@ function Experience(props) {
   const theme = props.theme;
   console.log(props.setTheme);
   return (
-    <div className="experience-main">
-      <Header theme={theme} setTheme={props.setTheme} />
+    <div className="experience-main" id = 'experience'>
+      {/* <Header theme={theme} setTheme={props.setTheme} /> */}
       <div className="basic-experience">
         <Fade bottom duration={2000} distance="40px">
           <div className="experience-heading-div">
