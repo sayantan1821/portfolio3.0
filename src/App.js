@@ -45,4 +45,3 @@ function App() {
 
 export default App;
 // https://dev.to/holdmypotion/react-custom-cursor-no-extra-dependencies-25ki    to implement more attractive cursor
-//cursor customized
