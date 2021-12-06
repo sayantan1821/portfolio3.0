@@ -398,12 +398,12 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Full Stack Developer (Intern)",
-          company: "Valora Infotech",
-          company_url: "https://valora-infotech.business.site/",
+          title: "Frontend Developer (Intern)",
+          company: "Lejhro Technology Pvt. Ltd.",
+          company_url: "https://lejhro.com/",
           logo_path: "valora.jpg",
-          duration: "Oct 2020 - Mar 2021",
-          location: "Office",
+          duration: "Jun 2021 - Sep 2021",
+          location: "Work from Home",
           description:
           `Train, manage and provide guidance to junior software development staff.
           Work closely with the Project Manager and Team Leads on change request functions.
@@ -415,11 +415,11 @@ const experience = {
           color: "#0071C5",
         },
         {
-          title: "Full Stack Developer (Freelancer)",
-          company: "NightOwls",
-          company_url: "http://nightowls.company/",
+          title: "Full Stack Developer (Intern)",
+          company: "Adwaita Educare",
+          company_url: "https://adwaitaeducare.com/",
           logo_path: "nightowls.jpg",
-          duration: "Sep 2020 - Oct 2020",
+          duration: "Jul 2021 - Sep 2021",
           location: "Work From Home",
           description:
           `Work closely with the Client and Team on change request functions.
@@ -434,11 +434,11 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Cross Winter of Code Mentor",
-          company: "CWOC",
-          company_url: "https://crosswoc.ieeedtu.in/",
+          title: "Web Developer (Intern)",
+          company: "Skillablers Technologies PVT. LTD.",
+          company_url: "https://www.skillablers.com/",
           logo_path: "cwoc.png",
-          duration: "Feb 2021 - Present",
+          duration: "Oct 2021 - Present",
           location: "Work From Home",
           description:
             "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
