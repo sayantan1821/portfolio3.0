@@ -27,9 +27,9 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/sayantan-kapat-916aa51b2/",
   gmail: "ksayantan1821@gmail.com",
   gitlab: "https://gitlab.com/sayantan21",
-  // facebook: "https://www.facebook.com/harikrishan.kanani/",
-  // twitter: "https://twitter.com/Harikrushn9",
-  // instagram: "https://www.instagram.com/hari_kanani_/",
+  facebook: "https://www.facebook.com/sayantan.kapat.1821/",
+  twitter: "https://twitter.com/blueSpy0_0",
+  instagram: "https://www.instagram.com/blue_spy21/",
 };
 
 const skills = {
