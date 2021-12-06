@@ -26,7 +26,7 @@ const socialMediaLinks = {
   github: "https://github.com/sayantan1821",
   linkedin: "https://www.linkedin.com/in/sayantan-kapat-916aa51b2/",
   gmail: "ksayantan1821@gmail.com",
-  // gitlab: "https://gitlab.com/harikanani",
+  gitlab: "https://gitlab.com/sayantan21",
   // facebook: "https://www.facebook.com/harikrishan.kanani/",
   // twitter: "https://twitter.com/Harikrushn9",
   // instagram: "https://www.instagram.com/hari_kanani_/",
@@ -515,7 +515,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "harikrushn.jpg",
+    profile_image_path: "sayantan.jpg",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
@@ -523,7 +523,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
-    link: "https://twitter.com/Harikrushn9",
+    link: "https://twitter.com/blueSpy0_0",
     avatar_image_path: "blogs_image.svg",
   },
 };
