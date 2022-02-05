@@ -20,7 +20,7 @@ function Projects(props) {
 
   return (
     <div className="projects-main" id="projects">
-      <Header theme={theme} setTheme={props.setTheme} />
+      {/* <Header theme={theme} setTheme={props.setTheme} />s */}
       <div className="basic-projects">
         <Fade bottom duration={2000} distance="40px">
           <div className="projects-heading-div">
@@ -55,7 +55,7 @@ function Projects(props) {
       <a
         {...styles}
         className="general-btn"
-        href="https://github.com/harikanani"
+        href="https://github.com/sayantan1821"
       >
         More Projects (Github)
       </a>
