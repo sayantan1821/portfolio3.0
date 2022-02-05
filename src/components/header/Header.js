@@ -112,15 +112,15 @@ function Header(props) {
               </a>
             </li>
             <li>
-              <NavLink
+              <a
                 className="projects"
-                to="/projects"
+                href="#projects"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
                 Projects
-              </NavLink>
+              </a>
             </li>
             <li>
               <a

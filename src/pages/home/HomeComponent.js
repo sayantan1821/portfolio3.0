@@ -9,6 +9,7 @@ import Certifications from "../../containers/certifications/Certifications";
 import EducationImg from "../education/EducationImg";
 import { Fade } from "react-reveal";
 import Experience from "../experience/Experience";
+import Projects from '../projects/Projects';
 
 function Home(props) {
   return (
@@ -18,6 +19,7 @@ function Home(props) {
       <Skills theme={props.theme} />
       <Educations theme={props.theme} />
       <Experience theme={props.theme} />
+      <Projects theme={props.theme}/>
       <Contact {...props} theme={props.theme} setTheme={props.setTheme} />
       <section id="footer">
         <Footer theme={props.theme} />

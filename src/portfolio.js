@@ -368,7 +368,7 @@ const experience = {
           title: "Frontend Developer (Intern)",
           company: "Lejhro Technology Pvt. Ltd.",
           company_url: "https://lejhro.com/",
-          logo_path: "valora.jpg",
+          logo_path: "lejhro.png",
           duration: "Jun 2021 - Sep 2021",
           location: "Work from Home",
           description:
@@ -379,13 +379,13 @@ const experience = {
           We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
           `,
             // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#0071C5",
+          color: "#0093FF",
         },
         {
           title: "Full Stack Developer (Intern)",
-          company: "Adwaita Educare",
+          company: "Adwaita Educare Pvt. Ltd.",
           company_url: "https://adwaitaeducare.com/",
-          logo_path: "nightowls.jpg",
+          logo_path: "adwaita.png",
           duration: "Jul 2021 - Sep 2021",
           location: "Work From Home",
           description:
@@ -394,6 +394,20 @@ const experience = {
           `,
             // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#ee3c26",
+        },
+        {
+          title: "Full Stack Developer (Intern)",
+          company: "Skillablers Technology Pvt. Ltd.",
+          company_url: "https://www.skillablers.com/",
+          logo_path: "skillablers.png",
+          duration: "Oct 2021 - Dec 2021",
+          location: "Work From Home",
+          description:
+          `Work closely with the Client and Team on change request functions.
+          We Primarily used LAMP Stack. 40% of my work was doing backend development, 30% of my work was designing database schemas, and 30% of my work was on maintain hosting and user traffics on the website.
+          `,
+            // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+          color: "#39e667",
         }
       ],
     },

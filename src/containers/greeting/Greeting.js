@@ -44,8 +44,6 @@ const Greeting = (props) => {
                 <button
                   {...styles}
                   className="button"
-                  onClick={() => {
-                  }}
                 >
                   Contact Me
                 </button>

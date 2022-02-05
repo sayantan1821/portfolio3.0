@@ -19,7 +19,7 @@ function Projects(props) {
   });
 
   return (
-    <div className="projects-main">
+    <div className="projects-main" id="projects">
       <Header theme={theme} setTheme={props.setTheme} />
       <div className="basic-projects">
         <Fade bottom duration={2000} distance="40px">
@@ -61,7 +61,6 @@ function Projects(props) {
       </a>
       <br />
       <br />
-      <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
   );
 }
