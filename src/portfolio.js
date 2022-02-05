@@ -15,10 +15,10 @@ const greeting = {
   nickname: "Sayantan",
   full_name: "Sayantan Kapat",
   subTitle:
-    "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
-  // resumeLink:
-  //   "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
-  // mail: "mailto:hkanani191@gmail.com",
+    "Full Stack Developer, ML engineer 🔥. Always learning.",
+  resumeLink:
+    "https://drive.google.com/file/d/1aMQIlF_447KAMCwimdwL6bYvdjDkeIGU/view?usp=sharing",
+  mail: "mailto:ksayantan1821@gmail.com",
 };
 
 const socialMediaLinks = {
@@ -40,8 +40,7 @@ const skills = {
       skills: [
         "⚡ Develop highly interactive Front end / User Interfaces for web and mobile applications",
         "⚡ Building responsive website front end using ReactJS",
-        // "⚡ Developing mobile applications using Flutter and Android",
-        "⚡ Creating application backend in Node & Express",
+        "⚡ Creating application backend in Node, Express or SpringBoot",
         "⚡ Integration of third party services such as Firebase"
       ],
       softwareSkills: [
@@ -95,20 +94,6 @@ const skills = {
             color: "#439743",
           },
         },
-        // {
-        //   skillName: "GraphQL",
-        //   fontAwesomeClassname: "simple-icons:graphql",
-        //   style: {
-        //     color: "#DE33A6",
-        //   },
-        // },
-        // {
-        //   skillName: "Android",
-        //   fontAwesomeClassname: "simple-icons:android",
-        //   style: {
-        //     color: "#3DDC84",
-        //   },
-        // },
         {
           skillName: "Java",
           fontAwesomeClassname: "simple-icons:java",
@@ -116,27 +101,7 @@ const skills = {
             color: "#f89820",
           },
         },
-        // {
-        //   skillName: "Flutter",
-        //   fontAwesomeClassname: "simple-icons:flutter",
-        //   style: {
-        //     color: "#02569B",
-        //   },
-        // },
-        // {
-        //   skillName: "Dart",
-        //   fontAwesomeClassname: "simple-icons:dart",
-        //   style: {
-        //     color: "#29B0EE",
-        //   },
-        // },
-        // {
-        //   skillName: "Visual Basic",
-        //   fontAwesomeClassname: "simple-icons:dot-net",
-        //   style: {
-        //     color: "#029FCE",
-        //   },
-        // },
+        
         {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
@@ -151,20 +116,7 @@ const skills = {
             color: "#0865A6",
           },
         },
-        // {
-        //   skillName: "Wordpress",
-        //   fontAwesomeClassname: "simple-icons:wordpress",
-        //   style: {
-        //     color: "#207297",
-        //   },
-        // },
-        // {
-        //   skillName: "Apache",
-        //   fontAwesomeClassname: "simple-icons:apache",
-        //   style: {
-        //     color: "#CA1A22",
-        //   },
-        // },
+        
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
@@ -186,29 +138,36 @@ const skills = {
             color: "#E94E32",
           },
         },
-        // {
-        //   skillName: "Python",
-        //   fontAwesomeClassname: "simple-icons:python",
-        //   style: {
-        //     color: "#3776AB",
-        //   },
-        // },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
+          style: {
+            color: "#3776AB",
+          },
+        },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
+      title: "Machine Learning",
+      fileName: "",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
+        "⚡ Experience working on multiple Data sets",
+        "⚡ Experience hosting managing models",
+        "⚡ Experience with Continuous Integration with backend",
       ],
       softwareSkills: [
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
           style: {
-            color: "#FF9900",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "R",
+          fontAwesomeClassname: "simple-icons:r",
+          style: {
+            color: "#3776AB",
           },
         },
         {
@@ -225,13 +184,13 @@ const skills = {
             color: "#6863A6",
           },
         },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
+        // {
+        //   skillName: "Firebase",
+        //   fontAwesomeClassname: "simple-icons:firebase",
+        //   style: {
+        //     color: "#FFCA28",
+        //   },
+        // },
         // {
         //   skillName: "PostgreSQL",
         //   fontAwesomeClassname: "simple-icons:postgresql",
@@ -239,13 +198,13 @@ const skills = {
         //     color: "#336791",
         //   },
         // },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
+        // {
+        //   skillName: "MongoDB",
+        //   fontAwesomeClassname: "simple-icons:mongodb",
+        //   style: {
+        //     color: "#47A248",
+        //   },
+        // },
         // {
         //   skillName: "Docker",
         //   fontAwesomeClassname: "simple-icons:docker",
@@ -277,6 +236,7 @@ const degrees = {
         "⚡ I'm currently pursuing my bachelors in Information Technology.",
         "⚡ I have studied core subjects like Data Structures, DBMS, Computer Networking, Operating System etc.",
         "⚡ I have also completed various online courses for Backend , Web, full stack etc.",
+        "⚡ I have also learned numpy, pandas, data preprocessing, Regression, classification, ML Modeling etc.",
         "⚡ I have implemented several projects based on what I've learnt under my Computer Engineering course. ",
       ],
       website_link: "https://kiit.ac.in/",
@@ -288,7 +248,9 @@ const degrees = {
       alt_name: "DHHS",
       duration: "2017 - 2019",
       descriptions: [
-        "⚡ I have studied core subjects like Physics, Mathematics, Chemistry etc.",
+        "⚡ In Mathematics Relations and Functions, Algebra, Calculus, Probability and Vectors topics was covered.",
+        "⚡ In Physics Depth knowledge was gained in basic Electrostatics, Current Electricity, Optics, Atoms and Nuclei etc.",
+        "⚡ In Chemistry Solid State, Solutions, Electrochemistry, Chemical Kinetics, Surface Chemistry, Biomolecules was covered."
       ],
       website_link: "https://schools.org.in/purba-medinipur/19190213302/deulia-hiraram-high-school.html",
     },
@@ -297,9 +259,14 @@ const degrees = {
       subtitle: "Passed Higher Secondary in Science",
       logo_path: "dhhs.png",
       alt_name: "DHHS",
-      duration: "2017 - 2019",
+      duration: "2015 - 2017",
       descriptions: [
-        "⚡ I have studied core subjects like Physics, Mathematics, Chemistry etc.",
+        "⚡ I have studied basic concepts on physical science over some topics like Light, Current electricity, Behavior of Gases etc.",
+        "⚡ In mathematics Quadratic equations, simple interest, interest calculation, ratio & proportion had been taught. ",
+        "⚡ Control and Coordination in living organisms, Continuity of life, Evolution and adaptation etc. was covered in Life Science",
+        "⚡ In history Expansion of British empire in India, Constitution of independent India etc. topcs was covered",
+        "⚡ I have studied Geography. Some of the topics like Atmosphere, Hydrosphere, Waste management etc."
+      
       ],
       website_link: "https://schools.org.in/purba-medinipur/19190213302/deulia-hiraram-high-school.html",
     },
