@@ -58,7 +58,7 @@ function Contact(props) {
         </Fade>
         <Fade bottom duration={1000} distance="40px">
           <div className="blog-heading-div">
-            <div className="blog-heading-text-div">
+            {/* <div className="blog-heading-text-div">
               <h1 className="blog-heading-text" style={{ color: theme.text }}>
                 {blogSection["title"]}
               </h1>
@@ -73,7 +73,8 @@ function Contact(props) {
                   My Twitter Profile
                 </a>
               </div>
-            </div>
+            </div> */}
+            <div className="feedback-heading-text-div"></div>
             <div className="blog-heading-img-div">
               <BlogsImg theme={theme} />
             </div>

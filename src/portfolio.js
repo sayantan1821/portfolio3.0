@@ -356,9 +356,9 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work and Internship ",
   description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "I've completed three internship. I've mostly done projects on my own and I am actively looking for internships. I love love to share my knowledge with others.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -397,76 +397,76 @@ const experience = {
         }
       ],
     },
-    {
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "Web Developer (Intern)",
-          company: "Skillablers Technologies PVT. LTD.",
-          company_url: "https://www.skillablers.com/",
-          logo_path: "cwoc.png",
-          duration: "Oct 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
-          color: "#4285F4",
-        },
-        {
-          title: "Campus Hustler",
-          company: "Skillenza",
-          company_url: "https://skillenza.com/",
-          logo_path: "skillenza.png",
-          duration: "Feb 2021 - Present",
-          location: "Work from Home",
-          description: "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
-          color: "#196acf",
-        },
-        {
-          title: "GitHub Student Developer",
-          company: "GitHub",
-          company_url: "https://github.com/",
-          logo_path: "github.png",
-          duration: "Nov 2019 - Present",
-          location: "Work from Home",
-          description:
-          "Contribute to Open Source Community and Open Source Project.",
-          color: "#040f26",
-        },
-        {
-          title: "Google Local Guide",
-          company: "Google Map",
-          company_url: "https://maps.google.com/localguides/",
-          logo_path: "localguide.png",
-          duration: "Sep 2018 - Present",
-          location: "Work From Home",
-          description:
-            "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
-          color: "#D83B01",
-        },
-        {
-          title: "GDG Student Volunteer",
-          company: "Google Developer Groups",
-          company_url: "https://gdg.community.dev/",
-          logo_path: "gdg.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Google Developer Group Surat Student Volunteer and Member.",
-          color: "#D83B01",
-        },
-        {
-          title: "E. F. I. Student Volunteer",
-          company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "efi.png",
-          duration: "Apr 2017 - Present",
-          location: "Work From Home",
-          description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#5a900f",
-        },
-      ],
-    },
+    // {
+    //   title: "Volunteerships",
+    //   experiences: [
+    //     {
+    //       title: "Web Developer (Intern)",
+    //       company: "Skillablers Technologies PVT. LTD.",
+    //       company_url: "https://www.skillablers.com/",
+    //       logo_path: "cwoc.png",
+    //       duration: "Oct 2021 - Present",
+    //       location: "Work From Home",
+    //       description:
+    //         "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+    //       color: "#4285F4",
+    //     },
+    //     {
+    //       title: "Campus Hustler",
+    //       company: "Skillenza",
+    //       company_url: "https://skillenza.com/",
+    //       logo_path: "skillenza.png",
+    //       duration: "Feb 2021 - Present",
+    //       location: "Work from Home",
+    //       description: "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
+    //       color: "#196acf",
+    //     },
+    //     {
+    //       title: "GitHub Student Developer",
+    //       company: "GitHub",
+    //       company_url: "https://github.com/",
+    //       logo_path: "github.png",
+    //       duration: "Nov 2019 - Present",
+    //       location: "Work from Home",
+    //       description:
+    //       "Contribute to Open Source Community and Open Source Project.",
+    //       color: "#040f26",
+    //     },
+    //     {
+    //       title: "Google Local Guide",
+    //       company: "Google Map",
+    //       company_url: "https://maps.google.com/localguides/",
+    //       logo_path: "localguide.png",
+    //       duration: "Sep 2018 - Present",
+    //       location: "Work From Home",
+    //       description:
+    //         "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
+    //       color: "#D83B01",
+    //     },
+    //     {
+    //       title: "GDG Student Volunteer",
+    //       company: "Google Developer Groups",
+    //       company_url: "https://gdg.community.dev/",
+    //       logo_path: "gdg.png",
+    //       duration: "Feb 2021 - Present",
+    //       location: "Work From Home",
+    //       description:
+    //         "Google Developer Group Surat Student Volunteer and Member.",
+    //       color: "#D83B01",
+    //     },
+    //     {
+    //       title: "E. F. I. Student Volunteer",
+    //       company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
+    //       company_url: "https://indiaenvironment.org/",
+    //       logo_path: "efi.png",
+    //       duration: "Apr 2017 - Present",
+    //       location: "Work From Home",
+    //       description:
+    //         "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
+    //       color: "#5a900f",
+    //     },
+    //   ],
+    // },
   ],
 };
 

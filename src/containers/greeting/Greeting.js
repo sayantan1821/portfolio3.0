@@ -39,7 +39,7 @@ const Greeting = (props) => {
                 {greeting.subTitle}
               </p>
               <SocialMedia />
-              <Link to='#contact'>
+              <a href='#contact'>
               <div className="portfolio-repo-btn-div">
                 <button
                   {...styles}
@@ -50,7 +50,7 @@ const Greeting = (props) => {
                   Contact Me
                 </button>
               </div>
-              </Link>
+              </a>
             </div>
           </div>
           <div className="greeting-image-div">
