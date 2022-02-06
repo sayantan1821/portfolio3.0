@@ -6,8 +6,10 @@ import { greeting, settings } from "../../portfolio.js";
 import { CgSun } from "react-icons/cg/";
 import { HiMoon } from "react-icons/hi";
 import { style } from "glamor";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 function Header(props) {
+  const[menuActive, setMenuActive] = useState(true)
   const theme = props.theme;
 
   const styles = style({
@@ -73,10 +75,76 @@ function Header(props) {
             </span>
             <span style={{ color: theme.text }}></span>
           </NavLink>
-          <input className="menu-btn" type="checkbox" id="menu-btn" />
+          <div className="nav_menu" onClick={() => setMenuActive(!menuActive)}>
+            {(menuActive) ? <AiOutlineMenu color="#fb1056" size='30px'/> : <AiOutlineClose color="#fb1056" size='30px'/>}  
+          </div>
+          {(!menuActive) ? 
+            <ul className="mob-menu">
+            <li>
+              <NavLink
+                className="homei"
+                to="/home"
+                tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ borderRadius: 5, color: theme.text }}
+              >
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <a
+                className="ec"
+                href="#educations"
+                // tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ borderRadius: 5, color: theme.text }}
+              >
+                Education and Certifications
+              </a>
+            </li>
+            <li>
+              <a
+                className="xp"
+                href="#experience"
+                tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ borderRadius: 5, color: theme.text }}
+              >
+                Experience
+              </a>
+            </li>
+            <li>
+              <a
+                className="projects"
+                href="#projects"
+                tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ borderRadius: 5, color: theme.text }}
+              >
+                Projects
+              </a>
+            </li>
+            <li>
+              <a
+                className="cr"
+                href="#contact"
+                // tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ borderRadius: 5, color: theme.text }}
+              >
+                Contact and Resume
+              </a>
+            </li>
+            <button {...styles} onClick={changeTheme}>
+              {icon}
+            </button>
+          </ul>
+          :
+          ""}
+          {/* <input className="menu-btn" type="checkbox" id="menu-btn" />
           <label className="menu-icon" htmlFor="menu-btn">
             <span className="navicon"></span>
-          </label>
+          </label> */}
           <ul className="menu">
             <li>
               <NavLink

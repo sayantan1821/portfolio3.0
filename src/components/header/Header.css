@@ -3,9 +3,9 @@
 .header {
   display: block;
   /* max-width: 90%; */
-  width: 98vw;
+  width: 99vw;
   /* padding: 20px 10px; */
-  padding: 1em 7em;
+  
   /* margin: -10px auto; */
   margin: auto;
   /* position: fixed; */
@@ -198,6 +198,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 1em 7em;
+  }
+  .nav_menu {
+    display: none;
   }
   .header .menu {
     max-height: none;
@@ -209,17 +213,28 @@
 
 @media (max-width: 768px) {
   .header .logo {
-    display: block;
+    display: flex;
     float: left;
-    font-size: 1.25em;
+    font-size: 1.5em;
     text-decoration: none;
     margin-top: 15px;
     line-height: normal;
+    padding: 5px 15px;
   }
-
+  .nav_menu {
+    float: right;
+    padding: 5px 15px;
+    margin-top: 15px;
+  }
   .header {
-    padding-top: 10px;
     text-align: center;
+    margin: 0;
+  }
+  .mob-menu {
+    margin: auto;
+    width: 90vw;
+    font-family: "Google Sans Regular";
+    transition: max-height 0.2s ease-out;
   }
 }
 @media (max-width: 960px) and (min-width: 768px) {

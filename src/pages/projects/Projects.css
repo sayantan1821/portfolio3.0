@@ -63,7 +63,36 @@
   margin-right: 40px;
   margin-top: 60px;
 }
+.btn-outline-primary {
+  background-color: transparent;
+  border-color: #FC1056;
+  text-decoration: none;
+  color: #FC1056 !important;
+  padding: 12px 15px;
+  margin: 25px 0;
+  border-radius: 4px;
+  border-width: 2px;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-family: "Google Sans Regular";
+  font-size: 17px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
 
+.btn:hover {
+  background-color: #FC1056 !important;
+  color: white !important;
+  border-color: transparent;
+}
+.btn:focus {
+  outline: none !important;
+  outline-offset: none !important;
+  box-shadow: none !important;
+  background-color: #FC1056;
+  color: white !important;
+}
 @media (max-width: 1380px) {
   .projects-heading-text {
     font-size: 50px;

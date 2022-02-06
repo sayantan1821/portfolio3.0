@@ -7,10 +7,11 @@ import { projectsHeader, projects } from "../../portfolio.js";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 import { style } from "glamor";
+import { Button } from "react-bootstrap";
 
 function Projects(props) {
   const theme = props.theme;
-
+  console.log(props)
   const styles = style({
     backgroundColor: `${theme.accentBright}`,
     ":hover": {
@@ -45,20 +46,52 @@ function Projects(props) {
         </Fade>
       </div>
       <div className="repo-cards-div-main">
-        {projects.data.map((repo) => {
-          return <ProjectCard repo={repo} theme={theme} />;
+        {projects.data.map((repo, idx) => {
+          if (idx < 3) return <ProjectCard repo={repo} theme={theme} />;
         })}
+      </div>
+      <p className="mt-5">
+        {/* <button
+          class="btn btn-primary general-btn p-2"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapseExample"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          Button with data-target
+        </button> */}
+        <Button
+          className="btn"
+          data-toggle="collapse"
+          data-target="#collapseExample"
+          variant="outline-primary"
+          style={{ color: "#eb6559" }}
+        >
+          See More
+        </Button>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body" style={{backgroundColor: `${theme.body}`}}>
+          <div className="repo-cards-div-main">
+            {projects.data.map((repo, idx) => {
+              if (idx >= 3) return <ProjectCard repo={repo} theme={theme} />;
+            })}
+          </div>
+          <a
+            {...styles}
+            className="general-btn"
+            href="https://github.com/sayantan1821"
+            style={{display: 'float', justifySelf: 'center'}}
+          >
+            More Projects (Github)
+          </a>
+        </div>
       </div>
       <br />
       <br />
       <br />
-      <a
-        {...styles}
-        className="general-btn"
-        href="https://github.com/sayantan1821"
-      >
-        More Projects (Github)
-      </a>
+
       <br />
       <br />
     </div>
