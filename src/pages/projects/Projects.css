@@ -90,8 +90,8 @@
   outline: none !important;
   outline-offset: none !important;
   box-shadow: none !important;
-  background-color: #FC1056;
-  color: white !important;
+  /* background-color: #FC1056;
+  color: white !important; */
 }
 @media (max-width: 1380px) {
   .projects-heading-text {

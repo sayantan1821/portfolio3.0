@@ -27,7 +27,7 @@ const Greeting = (props) => {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1 className="greeting-text">{greeting.title}</h1>
+              <h1 className="greeting-text mt-1">{greeting.title}</h1>
               <p
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}

@@ -11,7 +11,7 @@ import { Button } from "react-bootstrap";
 
 function Projects(props) {
   const theme = props.theme;
-  console.log(props)
+  console.log(props);
   const styles = style({
     backgroundColor: `${theme.accentBright}`,
     ":hover": {
@@ -72,20 +72,25 @@ function Projects(props) {
         </Button>
       </p>
       <div class="collapse" id="collapseExample">
-        <div class="card card-body" style={{backgroundColor: `${theme.body}`}}>
+        <div
+          class="card card-body"
+          style={{ backgroundColor: `${theme.body}` }}
+        >
           <div className="repo-cards-div-main">
             {projects.data.map((repo, idx) => {
               if (idx >= 3) return <ProjectCard repo={repo} theme={theme} />;
             })}
           </div>
-          <a
-            {...styles}
-            className="general-btn"
-            href="https://github.com/sayantan1821"
-            style={{display: 'float', justifySelf: 'center'}}
-          >
-            More Projects (Github)
-          </a>
+          <div className="mt-5">
+            <a
+              {...styles}
+              className="general-btn"
+              href="https://github.com/sayantan1821"
+              
+            >
+              More Projects (Github)
+            </a>
+          </div>
         </div>
       </div>
       <br />
