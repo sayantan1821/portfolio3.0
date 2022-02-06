@@ -3,8 +3,11 @@ import ProjectLanguages from "../projectLanguages/ProjectLanguages";
 import "./ProjectCard.css";
 import { Fade } from "react-reveal";
 import { style } from "glamor";
+import { AiFillGithub } from "react-icons/ai";
+import { VscGlobe } from "react-icons/vsc";
 
 export default function ProjectCard({ repo, theme }) {
+  console.log(theme);
   function openRepoinNewTab(url) {
     var win = window.open(url, "_blank");
     win.focus();
@@ -30,13 +33,31 @@ export default function ProjectCard({ repo, theme }) {
         <div
           {...styles}
           key={repo.id}
-          onClick={() => openRepoinNewTab(repo.url)}
+          // onClick={() => openRepoinNewTab(repo.url)}
           style={{ backgroundColor: theme.projectCard }}
         >
-          <div className="repo-name-div">
+          <div className="repo-name-div mb-2">
             <p className="repo-name" style={{ color: theme.text }}>
               {repo.name}
             </p>
+            <div className="row mr-4">
+              <AiFillGithub
+                size="25px"
+                className="project-button"
+                onClick={() => openRepoinNewTab(repo.url)}
+                color={
+                  theme.name == "light" ? theme.lightIcon : theme.accentColor
+                }
+              />
+              <VscGlobe
+                className="project-button ml-4"
+                onClick={() => openRepoinNewTab(repo.visit)}
+                size="25px"
+                color={
+                  theme.name == "light" ? theme.lightIcon : theme.accentColor
+                }
+              />
+            </div>
           </div>
           <p className="repo-description" style={{ color: theme.text }}>
             {repo.description}

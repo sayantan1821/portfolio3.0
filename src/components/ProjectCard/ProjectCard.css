@@ -30,6 +30,7 @@
 .repo-name-div {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .repo-svg {
@@ -76,7 +77,21 @@
   margin-left: 0px;
   margin-right: auto;
 }
-
+.project-button {
+  background-color: transparent !important;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.project-button:hover {
+  background-color: transparent !important;
+  box-shadow:0px 0px 30px #fff;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
 @media (max-width: 768px) {
   .repo-name {
     font-size: 16px;

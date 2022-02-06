@@ -15,6 +15,7 @@ const lightTheme = {
   imageClothes: "#dce4f2",
   avatarMisc: "#e9ecf2",
   avatarShoes: "#ccd2e3",
+  lightIcon: "#6a6a6a"
 };
 
 const darkTheme = {

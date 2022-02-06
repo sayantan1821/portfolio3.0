@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
@@ -11,7 +11,7 @@ import { Button } from "react-bootstrap";
 
 function Projects(props) {
   const theme = props.theme;
-  console.log(props);
+  const[see, setSee] = useState(false)
   const styles = style({
     backgroundColor: `${theme.accentBright}`,
     ":hover": {
@@ -67,8 +67,9 @@ function Projects(props) {
           data-target="#collapseExample"
           variant="outline-primary"
           style={{ color: "#eb6559" }}
+          onClick={()=>setSee(!see)}
         >
-          See More
+          {(!see) ? "See More" : "See Less"}
         </Button>
       </p>
       <div class="collapse" id="collapseExample">

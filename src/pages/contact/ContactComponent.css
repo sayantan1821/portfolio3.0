@@ -139,7 +139,7 @@
 
 .general-btn {
   text-decoration: none;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1) !important;
   padding: 15px 15px;
   margin-top: 25px;
   border-radius: 4px;
@@ -152,7 +152,6 @@
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
-
 @media (max-width: 1380px) {
   .contact-heading-text {
     font-size: 50px;
