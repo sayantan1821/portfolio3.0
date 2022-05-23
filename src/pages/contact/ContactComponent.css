@@ -165,6 +165,10 @@
 }
 
 @media (max-width: 768px) {
+  .contact-heading-text-div {
+    text-align: center;
+    width: 88vw;
+  }
   .contact-heading-text {
     font-size: 30px;
     margin-top: 0px;

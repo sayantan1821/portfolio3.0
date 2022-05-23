@@ -26,7 +26,7 @@ const socialMediaLinks = {
   github: "https://github.com/sayantan1821",
   linkedin: "https://www.linkedin.com/in/sayantan-kapat-916aa51b2/",
   gmail: "ksayantan1821@gmail.com",
-  gitlab: "https://gitlab.com/sayantan21",
+  gitlab: "",
   facebook: "https://www.facebook.com/sayantan.kapat.1821/",
   twitter: "https://twitter.com/blueSpy0_0",
   instagram: "https://www.instagram.com/sayantankapat/",
@@ -525,15 +525,60 @@ const projects = {
       ],
     },
     {
-      id: "0",
-      name: "Royal Clothing",
-      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
-      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
-      description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
+      id: "1",
+      name: "Arctic",
+      url: "https://github.com/sayantan1821/Arctic",
+      visit: "sayantan1821.github.io/arctic/",
+      description: "It's a tourism based web page, where user can find new tourist spots. Fully mobile responsive with great animations",
       languages: [
         {
           name: "HTML5",
           iconifyClass: "simple-icons:html5",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "simple-icons:css3",
+        },
+        {
+          name: "Sass",
+          iconifyClass: "simple-icons:sass",
+        },
+      ],
+    },
+    {
+      id: "2",
+      name: "Devtalk",
+      url: "https://github.com/sayantan1821/Devtalk",
+      visit: "",
+      description: "A social media app for developers. They can view, like or dislike post. side by side they can create their own posts to show others.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "simple-icons:html5",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "simple-icons:css3",
+        },
+        {
+          name: "Javascript",
+          iconifyClass: "simple-icons:javascript",
+        },
+        {
+          name: "ReactJs",
+          iconifyClass: "simple-icons:react",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "simple-icons:bootstrap",
+        },
+        {
+          name: "NodeJs",
+          iconifyClass: "simple-icons:nodejs",
+        },
+        {
+          name: "MongoDB",
+          iconifyClass: "simple-icons:mongodb",
         },
       ],
     },
@@ -551,28 +596,15 @@ const projects = {
       ],
     },
     {
-      id: "0",
-      name: "Royal Clothing",
-      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
-      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
-      description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
+      id: "1",
+      name: "Arctic",
+      url: "https://github.com/sayantan1821/Arctic",
+      visit: "sayantan1821.github.io/arctic/",
+      description: "It's a tourism based web page",
       languages: [
         {
           name: "HTML5",
-          iconifyClass: "simple-icons:html5",
-        },
-      ],
-    },
-    {
-      id: "0",
-      name: "Royal Clothing",
-      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
-      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
-      description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "simple-icons:html5",
+          iconifyClass: "simple-icons:css3",
         },
       ],
     },
