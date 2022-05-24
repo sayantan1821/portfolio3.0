@@ -526,27 +526,6 @@ const projects = {
     },
     {
       id: "1",
-      name: "Arctic",
-      url: "https://github.com/sayantan1821/Arctic",
-      visit: "sayantan1821.github.io/arctic/",
-      description: "It's a tourism based web page, where user can find new tourist spots. Fully mobile responsive with great animations",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "simple-icons:html5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "simple-icons:css3",
-        },
-        {
-          name: "Sass",
-          iconifyClass: "simple-icons:sass",
-        },
-      ],
-    },
-    {
-      id: "2",
       name: "Devtalk",
       url: "https://github.com/sayantan1821/Devtalk",
       visit: "",
@@ -583,8 +562,82 @@ const projects = {
       ],
     },
     {
-      id: "0",
-      name: "Royal Clothing",
+      id: "2",
+      name: "My Portfolio",
+      url: "https://github.com/sayantan1821/Devtalk",
+      visit: "",
+      description: "A social media app for developers. They can view, like or dislike post. side by side they can create their own posts to show others.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "simple-icons:html5",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "simple-icons:css3",
+        },
+        {
+          name: "Javascript",
+          iconifyClass: "simple-icons:javascript",
+        },
+        {
+          name: "ReactJs",
+          iconifyClass: "simple-icons:react",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "simple-icons:bootstrap",
+        },
+        {
+          name: "NodeJs",
+          iconifyClass: "simple-icons:nodejs",
+        },
+        {
+          name: "MongoDB",
+          iconifyClass: "simple-icons:mongodb",
+        },
+      ],
+    },
+    {
+      id: "3",
+      name: "To-Do-List",
+      url: "https://github.com/sayantan1821/To-Do-List-React",
+      visit: "",
+      description: "It's a To-Do list web app to store user's work list. user can add update and delete their worklist. To store the worklist MongoDB has been used",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "simple-icons:html5",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "simple-icons:css3",
+        },
+        {
+          name: "Javascript",
+          iconifyClass: "simple-icons:javascript",
+        },
+        {
+          name: "ReactJs",
+          iconifyClass: "simple-icons:react",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "simple-icons:bootstrap",
+        },
+        {
+          name: "NodeJs",
+          iconifyClass: "simple-icons:nodejs",
+        },
+        {
+          name: "MongoDB",
+          iconifyClass: "simple-icons:mongodb",
+        },
+      ],
+    },
+    {
+      id: "4",
+      name: "Lets Chat",
       url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
       visit: "https://admiring-northcutt-cbfc79.netlify.app/",
       description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
@@ -596,99 +649,129 @@ const projects = {
       ],
     },
     {
-      id: "1",
+      id: "5",
+      name: "Monster Collection",
+      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
+      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
+      description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "simple-icons:html5",
+        },
+      ],
+    },
+    {
+      id: "6",
+      name: "Drum Kit",
+      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
+      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
+      description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "simple-icons:html5",
+        },
+      ],
+    },
+    {
+      id: "7",
+      name: "Simon Game",
+      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
+      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
+      description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "simple-icons:html5",
+        },
+      ],
+    },
+    
+    {
+      id: "8",
+      name: "Lazy Snake",
+      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
+      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
+      description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "simple-icons:html5",
+        },
+      ],
+    },
+    {
+      id: "9",
+      name: "Project MNIST - ML",
+      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
+      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
+      description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "simple-icons:html5",
+        },
+      ],
+    },
+    {
+      id: "10",
+      name: "University Data Project - ML",
+      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
+      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
+      description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "simple-icons:html5",
+        },
+      ],
+    },
+    {
+      id: "11",
       name: "Arctic",
       url: "https://github.com/sayantan1821/Arctic",
       visit: "sayantan1821.github.io/arctic/",
-      description: "It's a tourism based web page",
+      description: "It's a tourism based web page, where user can find new tourist spots. Fully mobile responsive with great animations",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "simple-icons:html5",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "simple-icons:css3",
+        },
+        {
+          name: "Sass",
+          iconifyClass: "simple-icons:sass",
+        },
+      ],
+    },
+    {
+      id: "12",
+      name: "Resturant Webpage",
+      url: "https://github.com/sayantan1821/Resturant-webpage",
+      visit: "https://sayantan1821.github.io/Resturant-webpage/",
+      description: "This is a simple html css webpage. User can explore menus, order food and book table. Bootstrap has been used for more attractive design",
       languages: [
         {
           name: "HTML5",
           iconifyClass: "simple-icons:css3",
         },
-      ],
-    },
-    {
-      id: "0",
-      name: "Royal Clothing",
-      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
-      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
-      description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
-      languages: [
         {
-          name: "HTML5",
-          iconifyClass: "simple-icons:html5",
+          name: "CSS3",
+          iconifyClass: "simple-icons:css3",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "simple-icons:bootstrap",
         },
       ],
     },
     {
-      id: "0",
-      name: "Royal Clothing",
-      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
-      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
-      description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "simple-icons:html5",
-        },
-      ],
-    },
-    {
-      id: "0",
-      name: "Royal Clothing",
-      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
-      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
-      description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "simple-icons:html5",
-        },
-      ],
-    },
-    {
-      id: "0",
-      name: "Royal Clothing",
-      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
-      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
-      description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "simple-icons:html5",
-        },
-      ],
-    },
-    {
-      id: "0",
-      name: "Royal Clothing",
-      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
-      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
-      description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "simple-icons:html5",
-        },
-      ],
-    },
-    {
-      id: "0",
-      name: "Royal Clothing",
-      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
-      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
-      description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "simple-icons:html5",
-        },
-      ],
-    },
-    {
-      id: "0",
-      name: "Royal Clothing",
+      id: "13",
+      name: "TinDog",
       url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
       visit: "https://admiring-northcutt-cbfc79.netlify.app/",
       description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
