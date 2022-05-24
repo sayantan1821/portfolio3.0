@@ -519,8 +519,32 @@ const projects = {
       description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "simple-icons:html5",
+          name: "ReactJs",
+          iconifyClass: "simple-icons:react",
+        },
+        {
+          name: "Javascript",
+          iconifyClass: "simple-icons:javascript",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "simple-icons:bootstrap",
+        },
+        {
+          name: "NodeJs",
+          iconifyClass: "simple-icons:nodejs",
+        },
+        {
+          name: "Google Firebase",
+          iconifyClass: "simple-icons:firebase",
+        },
+        {
+          name: "Material UI",
+          iconifyClass: "simple-icons:mui",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "simple-icons:redux",
         },
       ],
     },
@@ -532,20 +556,12 @@ const projects = {
       description: "A social media app for developers. They can view, like or dislike post. side by side they can create their own posts to show others.",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "simple-icons:html5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "simple-icons:css3",
+          name: "ReactJs",
+          iconifyClass: "simple-icons:react",
         },
         {
           name: "Javascript",
           iconifyClass: "simple-icons:javascript",
-        },
-        {
-          name: "ReactJs",
-          iconifyClass: "simple-icons:react",
         },
         {
           name: "Bootstrap",
@@ -564,37 +580,37 @@ const projects = {
     {
       id: "2",
       name: "My Portfolio",
-      url: "https://github.com/sayantan1821/Devtalk",
-      visit: "",
+      url: "https://github.com/sayantan1821/portfolio3.0",
+      visit: "https://sayantan-k.web.app/",
       description: "A social media app for developers. They can view, like or dislike post. side by side they can create their own posts to show others.",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "simple-icons:html5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "simple-icons:css3",
+          name: "ReactJs",
+          iconifyClass: "simple-icons:react",
         },
         {
           name: "Javascript",
           iconifyClass: "simple-icons:javascript",
         },
         {
-          name: "ReactJs",
-          iconifyClass: "simple-icons:react",
-        },
-        {
           name: "Bootstrap",
           iconifyClass: "simple-icons:bootstrap",
         },
         {
-          name: "NodeJs",
-          iconifyClass: "simple-icons:nodejs",
+          name: "ReactJs",
+          iconifyClass: "simple-icons:mui",
         },
         {
-          name: "MongoDB",
-          iconifyClass: "simple-icons:mongodb",
+          name: "Styled Component",
+          iconifyClass: "simple-icons:styled-components",
+        },
+        {
+          name: "ReactJs",
+          iconifyClass: "simple-icons:simpleicons",
+        },
+        {
+          name: "Google Firebase",
+          iconifyClass: "simple-icons:firebase",
         },
       ],
     },
@@ -638,52 +654,104 @@ const projects = {
     {
       id: "4",
       name: "Lets Chat",
-      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
-      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
+      url: "https://github.com/sayantan1821/LetsChat",
+      visit: "https://chat-app-blue-spy.netlify.app/",
       description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
       languages: [
         {
           name: "HTML5",
           iconifyClass: "simple-icons:html5",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "simple-icons:css3",
+        },
+        {
+          name: "Javascript",
+          iconifyClass: "simple-icons:javascript",
+        },
+        {
+          name: "ReactJs",
+          iconifyClass: "simple-icons:react",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "simple-icons:bootstrap",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "simple-icons:fontawesome",
         },
       ],
     },
     {
       id: "5",
       name: "Monster Collection",
-      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
-      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
+      url: "https://github.com/sayantan1821/Monster_collection",
+      visit: "https://monster-collection-1821.netlify.app/",
       description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
       languages: [
         {
           name: "HTML5",
           iconifyClass: "simple-icons:html5",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "simple-icons:css3",
+        },
+        {
+          name: "Javascript",
+          iconifyClass: "simple-icons:javascript",
+        },
+        {
+          name: "ReactJs",
+          iconifyClass: "simple-icons:react",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "simple-icons:bootstrap",
         },
       ],
     },
     {
       id: "6",
       name: "Drum Kit",
-      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
-      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
+      url: "https://github.com/sayantan1821/drum-kit",
+      visit: "https://sayantan1821.github.io/drum-kit/",
       description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
       languages: [
         {
           name: "HTML5",
           iconifyClass: "simple-icons:html5",
         },
+        {
+          name: "CSS3",
+          iconifyClass: "simple-icons:css3",
+        },
+        {
+          name: "Javascript",
+          iconifyClass: "simple-icons:javascript",
+        },
       ],
     },
     {
       id: "7",
       name: "Simon Game",
-      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
-      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
+      url: "https://github.com/sayantan1821/simon-game",
+      visit: "https://sayantan1821.github.io/simon-game/",
       description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
       languages: [
         {
           name: "HTML5",
           iconifyClass: "simple-icons:html5",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "simple-icons:css3",
+        },
+        {
+          name: "Javascript",
+          iconifyClass: "simple-icons:javascript",
         },
       ],
     },
@@ -691,39 +759,71 @@ const projects = {
     {
       id: "8",
       name: "Lazy Snake",
-      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
-      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
+      url: "https://github.com/sayantan1821/LazySnake",
+      visit: "https://sayantan1821.github.io/LazySnake/",
       description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
       languages: [
         {
           name: "HTML5",
           iconifyClass: "simple-icons:html5",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "simple-icons:css3",
+        },
+        {
+          name: "Javascript",
+          iconifyClass: "simple-icons:javascript",
         },
       ],
     },
     {
       id: "9",
       name: "Project MNIST - ML",
-      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
-      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
+      url: "https://github.com/sayantan1821/project-MNIST",
+      visit: "",
       description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "simple-icons:html5",
+          name: "Jupyter Notebook",
+          iconifyClass: "simple-icons:jupyter",
+        },
+        {
+          name: "Python",
+          iconifyClass: "simple-icons:python",
+        },
+        {
+          name: "Pandas",
+          iconifyClass: "simple-icons:pandas",
+        },
+        {
+          name: "TensorFlow",
+          iconifyClass: "simple-icons:tensorflow",
         },
       ],
     },
     {
       id: "10",
-      name: "University Data Project - ML",
-      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
-      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
+      name: "Movie Recommender - ML",
+      url: "https://github.com/sayantan1821/movie-recomender",
+      visit: "",
       description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "simple-icons:html5",
+          name: "Jupyter Notebook",
+          iconifyClass: "simple-icons:jupyter",
+        },
+        {
+          name: "Python",
+          iconifyClass: "simple-icons:python",
+        },
+        {
+          name: "Pandas",
+          iconifyClass: "simple-icons:pandas",
+        },
+        {
+          name: "NumPy",
+          iconifyClass: "simple-icons:numpy",
         },
       ],
     },
@@ -772,13 +872,21 @@ const projects = {
     {
       id: "13",
       name: "TinDog",
-      url: "https://github.com/sayantan1821/Royal-cotton-Ecommerce-app-working",
-      visit: "https://admiring-northcutt-cbfc79.netlify.app/",
+      url: "https://github.com/sayantan1821/TinDog",
+      visit: "https://sayantan1821.github.io/TinDog/",
       description: "This is a E-commerce fashion Website. Here user can login with google or email and buy clothes. A fake payment system is also there.",
       languages: [
         {
           name: "HTML5",
-          iconifyClass: "simple-icons:html5",
+          iconifyClass: "simple-icons:css3",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "simple-icons:css3",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "simple-icons:bootstrap",
         },
       ],
     },
