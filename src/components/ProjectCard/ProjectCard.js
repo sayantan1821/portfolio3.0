@@ -49,14 +49,14 @@ export default function ProjectCard({ repo, theme }) {
                   theme.name == "light" ? theme.lightIcon : theme.accentColor
                 }
               />
-              <VscGlobe
+              {repo.visit !== "" && <VscGlobe
                 className="project-button ml-4"
                 onClick={() => openRepoinNewTab(repo.visit)}
                 size="25px"
                 color={
                   theme.name == "light" ? theme.lightIcon : theme.accentColor
                 }
-              />
+              />}
             </div>
           </div>
           <p className="repo-description" style={{ color: theme.text }}>

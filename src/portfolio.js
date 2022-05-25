@@ -597,7 +597,7 @@ const projects = {
           iconifyClass: "simple-icons:bootstrap",
         },
         {
-          name: "ReactJs",
+          name: "Material UI",
           iconifyClass: "simple-icons:mui",
         },
         {
@@ -605,7 +605,7 @@ const projects = {
           iconifyClass: "simple-icons:styled-components",
         },
         {
-          name: "ReactJs",
+          name: "Simple Icons",
           iconifyClass: "simple-icons:simpleicons",
         },
         {
