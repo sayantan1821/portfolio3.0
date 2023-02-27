@@ -33,6 +33,10 @@
 
 .body-header-duration {
   width: 20%;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  justify-content: center;
 }
 .duration {
   font-family: "Google Sans Regular";
@@ -41,10 +45,10 @@
   float: right;
 }
 
-.body-content {
-  max-width: inherit;
+.card-content {
+  max-width: auto;
   border-radius: 0px 0px 7px 7px;
-  padding: 5px;
+  padding: 30px 10px;
   justify-content: center;
   align-items: center;
 }
